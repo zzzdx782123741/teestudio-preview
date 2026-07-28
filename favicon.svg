@@ -1,11 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0a644a" />
-  <path
-    d="M20 16l6 6h12l6-6 10 7-7 12-6-3v16H23V32l-6 3-7-12 10-7z"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linejoin="round"
-    stroke-width="4"
-  />
-  <path d="M27 22c2 2 8 2 10 0" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="3" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="favicon-title">
+  <title id="favicon-title">TeeStudio favicon</title>
+  <defs>
+    <linearGradient id="favicon-bg" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a7a57" />
+      <stop offset="1" stop-color="#063f32" />
+    </linearGradient>
+    <radialGradient id="favicon-light" cx="21" cy="14" r="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#31c98f" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#31c98f" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#favicon-bg)" />
+  <rect width="64" height="64" rx="16" fill="url(#favicon-light)" />
+  <path d="M12 46c10 5 28 5 40-4v14H12z" fill="#032f28" opacity="0.22" />
+  <g id="favicon-shirt">
+    <path
+      d="M20.5 19.5 26.4 15h11.2l5.9 4.5 8.2 4.2-4.8 9.6-5.7-2.4V49H22.8V30.9l-5.7 2.4-4.8-9.6z"
+      fill="#f3fff7"
+    />
+    <path d="M27 15c.9 2.7 2.7 4.2 5 4.2s4.1-1.5 5-4.2" fill="none" stroke="#0a7a57" stroke-linecap="round" stroke-width="2.5" />
+    <path d="M25.5 29.5h13" fill="none" stroke="#0a7a57" stroke-linecap="round" stroke-width="3" />
+    <path d="M32 29.5v12" fill="none" stroke="#0a7a57" stroke-linecap="round" stroke-width="3" />
+  </g>
 </svg>
